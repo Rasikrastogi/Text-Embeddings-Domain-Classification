@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs & debug
+*.log
+wandb/
+
+# Checkpoints & temporary files
+*.ckpt
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Results (exclude detailed results, keep summary plots if needed)
+results_*/
+
+# System files (Windows, macOS)
+.DS_Store
+Thumbs.db
