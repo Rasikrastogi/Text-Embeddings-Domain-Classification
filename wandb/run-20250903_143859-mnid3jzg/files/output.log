@@ -1,0 +1,8 @@
+Step 0: accuracy=0.80, loss=0.50
+Step 1: accuracy=0.82, loss=0.45
+Step 2: accuracy=0.84, loss=0.40
+Step 3: accuracy=0.86, loss=0.35
+Step 4: accuracy=0.88, loss=0.30
+
+✅ Test finished! Check your W&B dashboard for 'wandb-demo-run'.
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.

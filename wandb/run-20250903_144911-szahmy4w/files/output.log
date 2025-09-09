@@ -1,0 +1,40 @@
+
+===== Running task: STSBenchmark =====
+
+--- Model: sbert ---
+c:\Users\Rasik\AppData\Local\Programs\Python\Python311\Lib\site-packages\mteb\evaluation\MTEB.py:120: UserWarning: Passing task names as strings is deprecated and will be removed in 2.0 release. Please use `tasks = mteb.get_tasks(tasks=[...])` method to get tasks instead.
+  warnings.warn(
+Model prompts are not in the expected format. Ignoring them.
+
+--- Model: sbert-mini ---
+Model prompts are not in the expected format. Ignoring them.
+
+--- Model: use ---
+Model prompts are not in the expected format. Ignoring them.
+
+===== Running task: SICK-R =====
+
+--- Model: sbert ---
+Model prompts are not in the expected format. Ignoring them.
+
+--- Model: sbert-mini ---
+Model prompts are not in the expected format. Ignoring them.
+
+--- Model: use ---
+Model prompts are not in the expected format. Ignoring them.
+
+===== Running task: BIOSSES =====
+
+--- Model: sbert ---
+Model prompts are not in the expected format. Ignoring them.
+
+--- Model: sbert-mini ---
+Model prompts are not in the expected format. Ignoring them.
+
+--- Model: use ---
+Model prompts are not in the expected format. Ignoring them.
+
+Final Results:
+ Empty DataFrame
+Columns: []
+Index: []

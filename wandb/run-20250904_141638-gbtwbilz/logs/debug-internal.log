@@ -1,0 +1,17 @@
+{"time":"2025-09-04T14:16:39.5242662+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\Rasik\\Desktop\\Data Science Project\\wandb\\run-20250904_141638-gbtwbilz\\logs\\debug-core.log"}
+{"time":"2025-09-04T14:16:40.3343805+02:00","level":"INFO","msg":"created new stream","id":"gbtwbilz"}
+{"time":"2025-09-04T14:16:40.3343805+02:00","level":"INFO","msg":"sender: started","stream_id":"gbtwbilz"}
+{"time":"2025-09-04T14:16:40.3343805+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"gbtwbilz"}
+{"time":"2025-09-04T14:16:40.3343805+02:00","level":"INFO","msg":"stream: started","id":"gbtwbilz"}
+{"time":"2025-09-04T14:16:40.3343805+02:00","level":"INFO","msg":"handler: started","stream_id":"gbtwbilz"}
+{"time":"2025-09-04T14:16:40.7356566+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-04T14:34:31.8460045+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-04T14:34:32.7247165+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-04T14:34:32.7252484+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-04T14:34:33.640213+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-04T14:34:33.7499935+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.1097805}],"total_operations":1}}
+{"time":"2025-09-04T14:34:33.9610842+02:00","level":"INFO","msg":"stream: closing","id":"gbtwbilz"}
+{"time":"2025-09-04T14:34:33.9617952+02:00","level":"INFO","msg":"handler: closed","stream_id":"gbtwbilz"}
+{"time":"2025-09-04T14:34:33.9617952+02:00","level":"INFO","msg":"sender: closed","stream_id":"gbtwbilz"}
+{"time":"2025-09-04T14:34:33.9617952+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gbtwbilz"}
+{"time":"2025-09-04T14:34:33.9617952+02:00","level":"INFO","msg":"stream: closed","id":"gbtwbilz"}

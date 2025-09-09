@@ -1,0 +1,7 @@
+{"time":"2025-09-03T14:58:43.4973083+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\Rasik\\Desktop\\Data Science Project\\wandb\\run-20250903_145842-lo3t9xa7\\logs\\debug-core.log"}
+{"time":"2025-09-03T14:58:43.9208217+02:00","level":"INFO","msg":"created new stream","id":"lo3t9xa7"}
+{"time":"2025-09-03T14:58:43.9208217+02:00","level":"INFO","msg":"stream: started","id":"lo3t9xa7"}
+{"time":"2025-09-03T14:58:43.9208217+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"lo3t9xa7"}
+{"time":"2025-09-03T14:58:43.9208217+02:00","level":"INFO","msg":"sender: started","stream_id":"lo3t9xa7"}
+{"time":"2025-09-03T14:58:43.9208217+02:00","level":"INFO","msg":"handler: started","stream_id":"lo3t9xa7"}
+{"time":"2025-09-03T14:58:44.2623982+02:00","level":"INFO","msg":"Starting system monitor"}

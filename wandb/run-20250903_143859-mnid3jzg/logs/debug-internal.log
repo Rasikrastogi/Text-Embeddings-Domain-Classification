@@ -1,0 +1,19 @@
+{"time":"2025-09-03T14:38:59.389631+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\Rasik\\Desktop\\Data Science Project\\wandb\\run-20250903_143859-mnid3jzg\\logs\\debug-core.log"}
+{"time":"2025-09-03T14:39:01.0557344+02:00","level":"INFO","msg":"created new stream","id":"mnid3jzg"}
+{"time":"2025-09-03T14:39:01.0557344+02:00","level":"INFO","msg":"stream: started","id":"mnid3jzg"}
+{"time":"2025-09-03T14:39:01.056269+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"mnid3jzg"}
+{"time":"2025-09-03T14:39:01.0557344+02:00","level":"INFO","msg":"handler: started","stream_id":"mnid3jzg"}
+{"time":"2025-09-03T14:39:01.056269+02:00","level":"INFO","msg":"sender: started","stream_id":"mnid3jzg"}
+{"time":"2025-09-03T14:39:01.4976566+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-03T14:42:47.4019956+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/rasikrastogi-universit-t-passau/domain-classification/mnid3jzg/file_stream"}
+{"time":"2025-09-03T14:42:47.4019956+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/rasikrastogi-universit-t-passau/domain-classification/mnid3jzg/file_stream: {\"error\":\"project rasikrastogi-universit-t-passau/domain-classification not found while streaming file\"}"}
+{"time":"2025-09-03T14:49:05.8824116+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-03T14:49:11.0469079+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-03T14:49:11.0469079+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-03T14:49:12.0611866+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3745048,"progress":"942B/942B"}],"total_operations":1}}
+{"time":"2025-09-03T14:49:12.3252056+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-03T14:49:12.3350693+02:00","level":"INFO","msg":"stream: closing","id":"mnid3jzg"}
+{"time":"2025-09-03T14:49:12.3350693+02:00","level":"INFO","msg":"handler: closed","stream_id":"mnid3jzg"}
+{"time":"2025-09-03T14:49:12.3350693+02:00","level":"INFO","msg":"sender: closed","stream_id":"mnid3jzg"}
+{"time":"2025-09-03T14:49:12.3350693+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mnid3jzg"}
+{"time":"2025-09-03T14:49:12.3350693+02:00","level":"INFO","msg":"stream: closed","id":"mnid3jzg"}

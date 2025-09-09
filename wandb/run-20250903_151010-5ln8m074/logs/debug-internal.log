@@ -1,0 +1,17 @@
+{"time":"2025-09-03T15:10:11.3227068+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\Rasik\\Desktop\\Data Science Project\\wandb\\run-20250903_151010-5ln8m074\\logs\\debug-core.log"}
+{"time":"2025-09-03T15:10:12.7652477+02:00","level":"INFO","msg":"created new stream","id":"5ln8m074"}
+{"time":"2025-09-03T15:10:12.7652477+02:00","level":"INFO","msg":"stream: started","id":"5ln8m074"}
+{"time":"2025-09-03T15:10:12.7652477+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"5ln8m074"}
+{"time":"2025-09-03T15:10:12.7652477+02:00","level":"INFO","msg":"sender: started","stream_id":"5ln8m074"}
+{"time":"2025-09-03T15:10:12.7652477+02:00","level":"INFO","msg":"handler: started","stream_id":"5ln8m074"}
+{"time":"2025-09-03T15:10:13.1022466+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-03T15:34:07.1466668+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/rasikrastogi-universit-t-passau/domain-classification/5ln8m074/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-04T14:16:38.5408886+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-04T14:16:38.5429767+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-04T14:16:39.2249454+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-04T14:16:39.5071116+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-09-04T14:16:39.5142602+02:00","level":"INFO","msg":"stream: closing","id":"5ln8m074"}
+{"time":"2025-09-04T14:16:39.5142602+02:00","level":"INFO","msg":"sender: closed","stream_id":"5ln8m074"}
+{"time":"2025-09-04T14:16:39.5142602+02:00","level":"INFO","msg":"handler: closed","stream_id":"5ln8m074"}
+{"time":"2025-09-04T14:16:39.5142602+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5ln8m074"}
+{"time":"2025-09-04T14:16:39.5147852+02:00","level":"INFO","msg":"stream: closed","id":"5ln8m074"}

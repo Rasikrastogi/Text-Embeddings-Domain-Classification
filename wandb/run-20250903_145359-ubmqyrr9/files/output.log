@@ -1,0 +1,69 @@
+
+===== Running task: STSBenchmark =====
+
+--- Model: sbert ---
+c:\Users\Rasik\AppData\Local\Programs\Python\Python311\Lib\site-packages\mteb\evaluation\MTEB.py:120: UserWarning: Passing task names as strings is deprecated and will be removed in 2.0 release. Please use `tasks = mteb.get_tasks(tasks=[...])` method to get tasks instead.
+  warnings.warn(
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for STSBenchmark | sbert:
+[TaskResult(task_name=STSBenchmark, scores=...)]
+
+--- Model: sbert-mini ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for STSBenchmark | sbert-mini:
+[TaskResult(task_name=STSBenchmark, scores=...)]
+
+--- Model: use ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for STSBenchmark | use:
+[TaskResult(task_name=STSBenchmark, scores=...)]
+
+===== Running task: SICK-R =====
+
+--- Model: sbert ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for SICK-R | sbert:
+[TaskResult(task_name=SICK-R, scores=...)]
+
+--- Model: sbert-mini ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for SICK-R | sbert-mini:
+[TaskResult(task_name=SICK-R, scores=...)]
+
+--- Model: use ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for SICK-R | use:
+[TaskResult(task_name=SICK-R, scores=...)]
+
+===== Running task: BIOSSES =====
+
+--- Model: sbert ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for BIOSSES | sbert:
+[TaskResult(task_name=BIOSSES, scores=...)]
+
+--- Model: sbert-mini ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for BIOSSES | sbert-mini:
+[TaskResult(task_name=BIOSSES, scores=...)]
+
+--- Model: use ---
+Model prompts are not in the expected format. Ignoring them.
+
+Raw results for BIOSSES | use:
+[TaskResult(task_name=BIOSSES, scores=...)]
+
+Final Results:
+ Empty DataFrame
+Columns: []
+Index: []
+
+ No results were collected. Check the structure of `res` above.

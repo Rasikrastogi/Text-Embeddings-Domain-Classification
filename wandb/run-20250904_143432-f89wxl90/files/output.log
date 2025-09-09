@@ -1,0 +1,381 @@
+
+▶ Running SBERT with variant=diff ...
+
+▶ Running SBERT with variant=concat3 ...
+
+▶ Running SBERT with variant=concatcos ...
+
+▶ Running SBERT with variant=concat ...
+
+▶ Running SBERT with variant=cos ...
+
+▶ Running MPNet with variant=diff ...
+
+▶ Running MPNet with variant=concat3 ...
+
+▶ Running MPNet with variant=concatcos ...
+
+▶ Running MPNet with variant=concat ...
+
+▶ Running MPNet with variant=cos ...
+
+▶ Running USE with variant=diff ...
+
+▶ Running USE with variant=concat3 ...
+
+▶ Running USE with variant=concatcos ...
+
+▶ Running USE with variant=concat ...
+
+▶ Running USE with variant=cos ...
+
+✅ Results DataFrame
+   Model    Variant  Dims  Accuracy  Precision    Recall        F1
+0  SBERT       diff   384  0.733333   0.736111  0.734848  0.731671
+1  SBERT    concat3  1152  0.983333   0.985507  0.979167  0.981840
+2  SBERT  concatcos   769  0.983333   0.985507  0.979167  0.981840
+3  SBERT     concat   768  0.983333   0.985507  0.979167  0.981840
+4  SBERT        cos     1  0.383333   0.262698  0.405303  0.318713
+<ipython-input-4-f33fa17bbb8e>:110: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+<ipython-input-4-f33fa17bbb8e>:110: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+<ipython-input-4-f33fa17bbb8e>:110: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+<ipython-input-4-f33fa17bbb8e>:110: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+
+✅ Results DataFrame
+Model   Variant  Dims  Accuracy  Precision   Recall       F1
+SBERT      diff   384  0.733333   0.736111 0.734848 0.731671
+SBERT   concat3  1152  0.983333   0.985507 0.979167 0.981840
+SBERT concatcos   769  0.983333   0.985507 0.979167 0.981840
+SBERT    concat   768  0.983333   0.985507 0.979167 0.981840
+SBERT       cos     1  0.383333   0.262698 0.405303 0.318713
+MPNet      diff   768  0.766667   0.768087 0.765152 0.762211
+MPNet   concat3  2304  1.000000   1.000000 1.000000 1.000000
+MPNet concatcos  1537  1.000000   1.000000 1.000000 1.000000
+MPNet    concat  1536  0.983333   0.985507 0.979167 0.981840
+MPNet       cos     1  0.433333   0.610196 0.445076 0.365803
+  USE      diff   512  0.850000   0.864198 0.852273 0.844100
+  USE   concat3  1536  1.000000   1.000000 1.000000 1.000000
+  USE concatcos  1025  1.000000   1.000000 1.000000 1.000000
+  USE    concat  1024  1.000000   1.000000 1.000000 1.000000
+  USE       cos     1  0.600000   0.593887 0.619318 0.584175
+<ipython-input-5-682746ac9a45>:23: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+<ipython-input-5-682746ac9a45>:23: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+<ipython-input-5-682746ac9a45>:23: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+<ipython-input-5-682746ac9a45>:23: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(
+
+▶ Training SBERT (variant=diff) for demo ...
+
+=== SBERT (diff) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 8.66%
+  news: 68.32%
+  nlp: 23.02%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 8.66%
+  news: 68.32%
+  nlp: 23.02%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 8.66%
+  news: 68.32%
+  nlp: 23.02%
+
+▶ Training SBERT (variant=concat3) for demo ...
+
+=== SBERT (concat3) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 9.27%
+  news: 58.29%
+  nlp: 32.44%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 13.70%
+  news: 55.69%
+  nlp: 30.61%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 83.75%
+  news: 11.09%
+  nlp: 5.16%
+
+▶ Training SBERT (variant=concatcos) for demo ...
+
+=== SBERT (concatcos) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 11.62%
+  news: 50.24%
+  nlp: 38.14%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 17.15%
+  news: 47.86%
+  nlp: 34.99%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 87.70%
+  news: 7.49%
+  nlp: 4.80%
+
+▶ Training SBERT (variant=concat) for demo ...
+
+=== SBERT (concat) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 14.05%
+  news: 43.63%
+  nlp: 42.32%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 20.59%
+  news: 41.17%
+  nlp: 38.24%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 90.49%
+  news: 5.05%
+  nlp: 4.46%
+
+▶ Training SBERT (variant=cos) for demo ...
+
+=== SBERT (cos) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 18.32%
+  news: 52.75%
+  nlp: 28.94%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 18.32%
+  news: 52.75%
+  nlp: 28.94%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 18.32%
+  news: 52.75%
+  nlp: 28.94%
+
+▶ Training MPNet (variant=diff) for demo ...
+
+=== MPNet (diff) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 15.47%
+  news: 68.21%
+  nlp: 16.32%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 15.47%
+  news: 68.21%
+  nlp: 16.32%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 15.47%
+  news: 68.21%
+  nlp: 16.32%
+
+▶ Training MPNet (variant=concat3) for demo ...
+
+=== MPNet (concat3) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 9.71%
+  news: 74.03%
+  nlp: 16.26%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 15.36%
+  news: 67.52%
+  nlp: 17.12%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 88.75%
+  news: 9.12%
+  nlp: 2.13%
+
+▶ Training MPNet (variant=concatcos) for demo ...
+
+=== MPNet (concatcos) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 11.75%
+  news: 67.35%
+  nlp: 20.91%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 18.52%
+  news: 59.55%
+  nlp: 21.93%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 91.32%
+  news: 6.47%
+  nlp: 2.21%
+
+▶ Training MPNet (variant=concat) for demo ...
+
+=== MPNet (concat) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 13.55%
+  news: 60.03%
+  nlp: 26.42%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 20.92%
+  news: 52.19%
+  nlp: 26.88%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 92.72%
+  news: 4.79%
+  nlp: 2.49%
+
+▶ Training MPNet (variant=cos) for demo ...
+
+=== MPNet (cos) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 24.81%
+  news: 51.16%
+  nlp: 24.03%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 24.81%
+  news: 51.16%
+  nlp: 24.03%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 24.81%
+  news: 51.16%
+  nlp: 24.03%
+
+▶ Training USE (variant=diff) for demo ...
+
+=== USE (diff) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 1.34%
+  news: 75.81%
+  nlp: 22.85%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 1.34%
+  news: 75.81%
+  nlp: 22.85%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 1.34%
+  news: 75.81%
+  nlp: 22.85%
+
+▶ Training USE (variant=concat3) for demo ...
+
+=== USE (concat3) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 21.72%
+  news: 41.78%
+  nlp: 36.50%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 27.48%
+  news: 50.96%
+  nlp: 21.56%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 61.00%
+  news: 28.54%
+  nlp: 10.45%
+
+▶ Training USE (variant=concatcos) for demo ...
+
+=== USE (concatcos) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 32.11%
+  news: 30.89%
+  nlp: 37.00%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 41.14%
+  news: 37.24%
+  nlp: 21.63%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 75.66%
+  news: 16.06%
+  nlp: 8.28%
+
+▶ Training USE (variant=concat) for demo ...
+
+=== USE (concat) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 50.10%
+  news: 18.70%
+  nlp: 31.20%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 62.27%
+  news: 20.53%
+  nlp: 17.20%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 89.32%
+  news: 5.99%
+  nlp: 4.70%
+
+▶ Training USE (variant=cos) for demo ...
+
+=== USE (cos) ===
+
+Sentence: The government announced new economic reforms to stabilize the market.
+  biomedical: 5.58%
+  news: 62.47%
+  nlp: 31.94%
+
+Sentence: Neural networks are widely used in natural language processing tasks.
+  biomedical: 5.58%
+  news: 62.47%
+  nlp: 31.94%
+
+Sentence: The latest research shows significant progress in cancer treatment.
+  biomedical: 5.58%
+  news: 62.47%
+  nlp: 31.94%

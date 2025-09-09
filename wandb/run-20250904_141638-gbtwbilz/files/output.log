@@ -1,0 +1,49 @@
+
+▶ Evaluating all-MiniLM-L6-v2 on STSBenchmark ...
+Pearson: 0.929, Spearman: 0.936
+
+▶ Evaluating all-MiniLM-L6-v2 on SICK-R ...
+Pearson: 0.789, Spearman: 0.757
+
+▶ Evaluating all-MiniLM-L6-v2 on BIOSSES ...
+Pearson: 0.841, Spearman: 0.813
+
+▶ Evaluating all-mpnet-base-v2 on STSBenchmark ...
+Pearson: 0.939, Spearman: 0.938
+
+▶ Evaluating all-mpnet-base-v2 on SICK-R ...
+Pearson: 0.767, Spearman: 0.767
+
+▶ Evaluating all-mpnet-base-v2 on BIOSSES ...
+Pearson: 0.844, Spearman: 0.804
+
+▶ Evaluating distiluse-base-multilingual-cased-v2 on STSBenchmark ...
+Pearson: 0.910, Spearman: 0.912
+
+▶ Evaluating distiluse-base-multilingual-cased-v2 on SICK-R ...
+Pearson: 0.762, Spearman: 0.728
+
+▶ Evaluating distiluse-base-multilingual-cased-v2 on BIOSSES ...
+Pearson: 0.791, Spearman: 0.783
+
+Final Results:
+           Model       Dataset   Pearson  Spearman
+0  SBERT-MiniLM  STSBenchmark  0.928739  0.936238
+1  SBERT-MiniLM        SICK-R  0.788867  0.756562
+2  SBERT-MiniLM       BIOSSES  0.841319  0.812539
+3         MPNet  STSBenchmark  0.939378  0.937649
+4         MPNet        SICK-R  0.767424  0.767227
+5         MPNet       BIOSSES  0.843920  0.804129
+6           USE  STSBenchmark  0.909852  0.912203
+7           USE        SICK-R  0.761691  0.728236
+8           USE       BIOSSES  0.790943  0.782948
+<ipython-input-3-4222690f787d>:103: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(data=df, x="Dataset", y="Pearson", hue="Model", palette="Set2", ci=None, ax=ax)
+<ipython-input-3-4222690f787d>:115: FutureWarning:
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(data=df, x="Dataset", y="Spearman", hue="Model", palette="Set2", ci=None, ax=ax)

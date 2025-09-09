@@ -1,0 +1,11 @@
+✅ Results collected
+        Model          Task   Pearson  Spearman
+0       SBERT       BIOSSES  0.844774  0.804320
+1       SBERT        SICK-R  0.840028  0.805854
+2       SBERT  STSBenchmark  0.840400  0.834219
+3  SBERT-MINI       BIOSSES  0.844190  0.816404
+4  SBERT-MINI        SICK-R  0.839160  0.775824
+5  SBERT-MINI  STSBenchmark  0.827406  0.820325
+6         USE       BIOSSES  0.792609  0.783403
+7         USE        SICK-R  0.811847  0.752474
+8         USE  STSBenchmark  0.816839  0.807548
